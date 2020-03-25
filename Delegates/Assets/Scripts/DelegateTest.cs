@@ -28,6 +28,7 @@ public class DelegateTest : MonoBehaviour
         if (onTaskEnd != null)
             onTaskEnd();
 
+        onTaskEnd?.Invoke();
     }
 
     private void Task1()
