@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ActionsTest.cs" />
     <Compile Include="Assets\Scripts\DelegateTest.cs" />
     <Compile Include="Assets\Scripts\EventSubscriber.cs" />
     <Compile Include="Assets\Scripts\EventTest.cs" />
