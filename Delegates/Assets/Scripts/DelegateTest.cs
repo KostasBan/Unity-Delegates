@@ -16,18 +16,6 @@ public class DelegateTest : MonoBehaviour
         onTaskEnd += Task1;
         onTaskEnd += Task2;
 
-        try
-        {
-            onTaskEnd();
-        }
-        catch(NullReferenceException e)
-        {
-            Debug.Log(e.Message);
-        }
-
-        if (onTaskEnd != null)
-            onTaskEnd();
-
         onTaskEnd?.Invoke();
     }
 
